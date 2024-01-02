@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="max-width: 300px ;margin: 0 auto;">
+    <a href="./reviews.html">Страница с отзывами</a>
+    <form action="#" style="display: flex; flex-direction: column; max-width: 300px;">
+        <label for="goods-select">Продукт</label>
+        <select name="goods" id="goods-select">
+            <option value="temp"> ---Выберите продукт о котором хотите оставить отзыв---</option>
+            <option value="phone">Телефон</option>
+            <option value="pc">ПК</option>
+            <option value="mouse">Мышь</option>
+        </select>
+        <textarea name="review-text" id="review-text-id" cols="30" rows="10"></textarea>
+        
+    </form>
+    <button class="submit-button">Добавить отзыв</button>
+    <div class="message-for-user">
+        
+    </div>
+    
+    <script src="./review.js"></script>
+</body>
+</html>

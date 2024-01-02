@@ -1,0 +1,32 @@
+.review-box{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.review-style{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+summary{
+    list-style: none;
+}
+summary:before {
+    content: "Показать отзывы";
+    font-size: 20px;
+    font-weight: bold;
+    margin: -5px 5px 0 0;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5px 10px;
+ }
+  
+ details[open] summary:before {
+    content: "Скрыть отзывы";
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5px 10px;
+ }
